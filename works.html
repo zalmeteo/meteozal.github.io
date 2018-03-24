@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeteoZal</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">METE<i class="fa fa-circle"></i>Station</a>
+        </div>
+        <div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html" id="shit"><i class="fa fa-home"></i>Головна</a></li>
+                <li><a href="https://gimnasia-public.sharepoint.com/"><i class="fa fa-graduation-cap"></i>Гімназія</a></li>
+                <li><a href="position.html"><i class="fa fa-map"></i>Знаходження</a></li>
+                <li class="active"><a href="works.html"><i class="fa fa-question-circle"></i>Як це працює</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="headerwrap">
+    <div class="container">
+        <div class="row centered">
+            <div class="col-lg-8 col-lg-offset-2">
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<div id="dg">
+    <div class="container">
+        <div class="row centered">
+            <h4>Як це працює?</h4>
+            <br>
+            <h3>Метеостанція створена на основі плат серії ESP. Програмне забезпечення написане для Метеостанції написане мовою С++, а точніше її модифікованою версією Wire, у середовищі розробки Arduino IDE. Для написання було використано безкоштовні бібліотеки.
+                В основі Метеостанції була використана плата ESP8266. При своїй невеличкій ціні вона пропонує процесор 80/160 Мегагерц; 48 кілобайт пам’яті; Wi-Fi 2,4 Гігагерц. Також для метеостанції були використані датчики:
+                DHT22 – датчик температури та вологості.
+                BMP180 – датчик температури і тиску.
+                DS1307 – годинник реального часу.
+                Та екрани на базі MAX7219.
+                Дані із неї  виводяться в інтернет через протокол MQTT на сервери безкоштовного сервісу Thingspeak. З цього сайту ми отримуємо інформацію з метеостанції на наш сайт. Також була створена програма з простим графічним інтерфейсом для зміни налаштувань в метеостанції.
+            </h3>
+            <br>
+            <br>
+            <h3>ESP8266</h3>
+            <i><img src="img/ESP8266.jpg"></i>
+            <br>
+            <br>
+            <h3>DHT22 – датчик температури та вологості</h3>
+            <i><img src="img/DHT22.jpg"></i>
+            <br>
+            <br>
+            <h3>BMP180 – датчик температури і тиску</h3>
+            <i><img src="img/BMP180.jpg"></i>
+            <br>
+            <br>
+            <h3>DS1307 – годинник реального часу</h3>
+            <i><img src="img/DS1307.jpg"></i>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<div id="f">
+    <div class="container">
+        <div class="row centered">
+            <a href="https://www.youtube.com/channel/UC1KieyVhptJQ6uhy1hRkmkA"><i class="fa fa fa-youtube"></i></a>
+            <a href="https://www.instagram.com/zal.gimnasia/?hl=uk"><i class="fa fa fa-instagram"></i></a>
+        </div>
+
+    </div>
+</div>
+<div id="vasia">
+    <div class="container">
+        <div class="row centered">
+            <i>Site was done by Harasymchuk Vasyl, system by Luchyn Dima</i>
+        </div>
+    </div>
+</div>
+
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
